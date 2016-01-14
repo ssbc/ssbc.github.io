@@ -3,6 +3,13 @@
     display: flex;
     color: #555;
   }
+  body:before, body:after {
+    content: '';
+    flex: 1;
+  }
+  body:before {
+    background: #eee;
+  }
   h1, h2, h3, h4, h5 {
     font-weight: 300;
     color: #000;
@@ -114,8 +121,7 @@
   }
   
   #content {
-    flex: 1;
+    flex: 0 0 740px;
     padding: 6px 20px;
-    max-width: 740px;
   }
   
