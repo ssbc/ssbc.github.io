@@ -10,7 +10,6 @@
   h1 {
     font-size: 3em;
     margin: 0px 0 30px 0;
-    border-bottom: 1px solid gray;
   }
   h2 {
     font-size: 2.25em;
@@ -24,6 +23,17 @@
   }
   h5 {
     font-size: 1em;
+  }
+  hr {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 2em 0;
+  }
+  blockquote {
+    color: gray;
+    border-left: 8px solid #ccc;
+    padding-left: 1em;
+    margin: 2em;
   }
   p, ul, ol {
     font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
@@ -106,5 +116,6 @@
   #content {
     flex: 1;
     padding: 6px 20px;
+    max-width: 740px;
   }
   
